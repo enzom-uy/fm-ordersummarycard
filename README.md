@@ -1,6 +1,6 @@
 ## Frontend Mentor - Order summary card
 
-### LIVE PREVIEW: https://enzomdev.github.io/fm-ordersummarycard/
+### LIVE PREVIEW: https://enzom-uy.github.io/fm-ordersummarycard/
 
 Desktop preview:
 ![Desktop preview](https://i.imgur.com/O6YLzs2.png)
