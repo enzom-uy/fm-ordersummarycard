@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+}
+@media (min-width: 1024px) {
+  body {
+    padding: 0;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 430px;
+  box-shadow: rgba(40, 42, 44, 0.336) 0px 8px 24px;
+}
+.container .container__header img {
+  height: auto;
+  width: 100%;
+  max-width: 430px;
+  border-radius: 20px 20px 0 0;
+}
+.container .container__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .container__text .title {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin: 1.5rem 0 0.5rem 0;
+  color: #1f2f56;
+}
+.container .container__text .description {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  width: 25ch;
+  line-height: 1.6;
+}
+.container .container__buttons {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 350px;
+  margin-bottom: 2rem;
+}
+.container .container__buttons .container__buttons-plan {
+  display: flex;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.container .container__buttons .container__buttons-plan .plan p {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.9rem;
+  margin-left: 0.6rem;
+}
+.container .container__buttons .container__buttons-plan .plan span {
+  color: #1f2f56;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container .container__buttons .container__buttons-plan a {
+  color: #3829e0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+}
+.container .container__buttons .container__buttons-plan a:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+.container .container__paymentsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .container__paymentsection button {
+  background-color: #3829e0;
+  width: 85%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(55, 55, 58, 0.521) 0px 10px 30px;
+}
+.container .container__paymentsection button:hover {
+  background-color: #766cf1;
+}
+.container .container__paymentsection a {
+  text-decoration: none;
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.container .container__paymentsection a:hover {
+  color: #1f2f56;
+}
+
+/*# sourceMappingURL=styles.css.map */
